@@ -1,0 +1,44 @@
+gradle -b kwang325.gradle compileJava
+gradle -b kwang325.gradle compileTest
+gradle -b kwang325.gradle javadoc
+gradle -b kwang325.gradle clean
+gradle -b kwang325.gradle jar
+gradle -b kwang325.gradle
+
+java -jar build/libs/m2-final.jar
+
+gradle -b myang300.gradle compileJava
+gradle -b myang300.gradle compileTest
+gradle -b myang300.gradle javadoc
+gradle -b myang300.gradle clean
+gradle -b myang300.gradle jar
+gradle -b myang300.gradle
+
+java -jar build/libs/m2-final.jar
+
+gradle -b rkristanto3.gradle compileJava
+gradle -b rkristanto3.gradle compileTest
+gradle -b rkristanto3.gradle javadoc
+gradle -b rkristanto3.gradle clean
+gradle -b rkristanto3.gradle jar
+gradle -b rkristanto3.gradle
+
+java -jar build/libs/m2-final.jar
+
+gradle -b wanderson43.gradle compileJava
+gradle -b wanderson43.gradle compileTest
+gradle -b wanderson43.gradle javadoc
+gradle -b wanderson43.gradle clean
+gradle -b wanderson43.gradle jar
+gradle -b wanderson43.gradle
+
+java -jar build/libs/m2-final.jar
+
+gradle -b bkang44.gradle compileJava
+gradle -b bkang44.gradle compileTest
+gradle -b bkang44.gradle javadoc
+gradle -b bkang44.gradle clean
+gradle -b bkang44.gradle jar
+gradle -b bkang44.gradle
+
+java -jar build/libs/m2-final.jar
